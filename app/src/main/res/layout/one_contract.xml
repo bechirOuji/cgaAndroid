@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center_vertical"
+	android:paddingLeft="10dp"
+	android:paddingRight="5dp" android:paddingStart="10dp" android:paddingEnd="5dp">
+
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="100sp"
+		android:layout_height="100dp"
+		app:srcCompat="?android:attr/actionModeCopyDrawable" android:contentDescription="@string/todo" />
+
+	<LinearLayout
+		android:layout_width="277dp"
+		android:layout_height="104dp"
+		android:layout_gravity="center_vertical"
+		android:orientation="vertical"
+		android:paddingLeft="10dp"
+		android:paddingRight="5dp" android:paddingStart="10dp" android:paddingEnd="5dp">
+
+		<TextView
+			android:id="@+id/IDItem"
+			android:layout_width="fill_parent"
+			android:layout_height="51dp"
+			android:layout_gravity="center_vertical"
+			android:textSize="16sp"
+			android:textStyle="bold"
+
+			/>
+
+		<TextView
+			android:id="@+id/expirationItem"
+			android:layout_width="fill_parent"
+			android:layout_height="54dp"
+			android:textSize="12sp" />
+	</LinearLayout>
+
+	</LinearLayout>
